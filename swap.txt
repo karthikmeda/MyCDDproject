@@ -1,0 +1,21 @@
+#Swap function using temporary variable
+def func1(num1,num2):
+	temp = num1
+	num1 = num2
+	num2 = temp
+	print(num1,num2)
+
+
+
+#Swap function using withouttemporary variable
+def func2(num1,num2):
+	num1 = num1 + num2
+	num2 = num1 - num2
+	num1 = num1 - num2
+	print(num1,num2)
+
+
+
+num1,num2 = 4,5
+func1(num1,num2)
+func2(num1,num2)
