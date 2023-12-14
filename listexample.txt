@@ -1,0 +1,7 @@
+l = [1,2,3,4]
+#print the list
+print(l)
+#using for loop
+for i in l:
+	print(i,end = " ")
+
